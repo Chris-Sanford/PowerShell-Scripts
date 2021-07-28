@@ -8,7 +8,7 @@ INSTRUCTIONS:
 
 -Be sure to verify that the user profile from which you run this script has the permissions to modify the contents of the project directories (aka you may need to run this as admin)
 
--Please create an info file (i.e. info.txt) in each project folder with the following formatting:
+-Please create an info file (i.e. info.txt) in each project folder with the following formatting (with no blank spaces between lines):
 
 ProjectName=HELLOWORLD
 
