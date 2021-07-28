@@ -1,0 +1,1 @@
+New-RDPFiles is a PowerShell script that generates RDP files with custom configurations and emails the RDP file with instructions to a specified user, with the purpose of simplifying the process of enabling remote work. The script is to be run against a .CSV file with pairs of users and computers.
