@@ -71,7 +71,7 @@ $selectedProjectDirectory = "$baseDirectory\$selectedProject" #Sets the director
 Write-Output "You've chosen to work on $selectedProject located at $selectedProjectDirectory"
 
 #Warn user that we will close PenManager now, so save their work before proceeding
-#Stop-Process -Name "PenManager" -Force #Stops the PenManager process. This is necessary to properly switch projects
+Stop-Process -Name "PenManager" -Force #Stops the PenManager process. This is necessary to properly switch projects
 
 #Renames working directory to its project name so we can rename the selected project's directory name to $workingProjectDirectory
 ##Check to make sure info.txt exists in the working project directory
